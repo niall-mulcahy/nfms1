@@ -1,6 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+/*----------------------------------------------------------General Styles*/
+body {
+    background-color: #000!important;
+}
+
+
 /*----------------------------------------------------------Nav bar*/
 .custom-nav {
-    background-color: #ff00ff;
+    background-color: #ff99fa;
 }
+
+div > nav > .container-fluid {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black!important;
+    font-size: 24px!important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000!important;
+    font-weight: bolder!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0,0,0,0.75)!important;
+}
+
+div #nav-stick {
+    position: sticky;
+    z-index: 1;
+}
+
+/*----------------------------------------------------------iframe styling*/
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0px;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/*----------------------------------------------------------footer*/
+
+.footer-wrapper {
+    background-color: #ff99fa;
+    position: fixed;
+    bottom: 0px;
+    height: 70px;
+    width: 100%
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+div > a > i {
+    color: black;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
